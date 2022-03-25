@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'CB',
+  tagline: 'We love Cyber Brokers',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ojasuno', // Usually your GitHub org/user name.
+  projectName: 'cb', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'CBM',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'CB Logo',
         src: 'img/logo.svg',
       },
       links: [
@@ -20,9 +20,18 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          to: 'blog', 
+          label: 'Blog', 
+          position: 'left'
+        },
+        {
+          to: 'cb', 
+          label: 'CB', 
+          position: 'left'
+        },
+        {
+          href: 'https://github.com/ojasuno/cb',
           label: 'GitHub',
           position: 'right',
         },
